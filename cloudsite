@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Photography Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #4682b4;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #4682b4;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 1rem 2rem;
+        }
+        .cloud-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+        }
+        footer {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cloud Photography Showcase</h1>
+        <p>By [Your Name]</p>
+    </header>
+
+    <nav>
+        <a href="#low-clouds">Low-Level Clouds</a>
+        <a href="#middle-clouds">Middle-Level Clouds</a>
+        <a href="#high-clouds">High-Level Clouds</a>
+    </nav>
+
+    <div id="low-clouds" class="content">
+        <h2>Low-Level Clouds</h2>
+        <p>Description of low-level clouds like stratus, cumulus, or stratocumulus. Add your photo below:</p>
+        <img src="" alt="Low-Level Cloud" class="cloud-image">
+    </div>
+
+    <div id="middle-clouds" class="content">
+        <h2>Middle-Level Clouds</h2>
+        <p>Description of middle-level clouds like altostratus or altocumulus. Add your photo below:</p>
+        <img src="" alt="Middle-Level Cloud" class="cloud-image">
+    </div>
+
+    <div id="high-clouds" class="content">
+        <h2>High-Level Clouds</h2>
+        <p>Description of high-level clouds like cirrus, cirrostratus, or cirrocumulus. Add your photo below:</p>
+        <img src="" alt="High-Level Cloud" class="cloud-image">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
